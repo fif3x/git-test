@@ -1,0 +1,19 @@
+# i3blocks configuration file
+# Each block is a separate section
+
+[time]
+command=date '+%d-%m-%Y | %H:%M:%S'
+interval=1
+
+[memory]
+command=~/.config/i3blocks/memory.sh
+interval=5
+markup=pango
+
+[network]
+command=~/.config/i3blocks/network.sh
+interval=10
+markup=pango
+
+
+
